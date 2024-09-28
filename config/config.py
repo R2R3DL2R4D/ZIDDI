@@ -18,13 +18,13 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", "28178139"))
+API_ID = int(getenv("API_ID", "24461319"))
 
-API_HASH = getenv("API_HASH", "85172511f45230b7f8bb304f5ed8e6d8")
+API_HASH = getenv("API_HASH", "bfee9f2d599eb92dbe32867e20538140")
 
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "6122249154:AAFoAWAj-GznsJM5ieyVlHhvGcH-6jNGrrI")
+BOT_TOKEN = getenv("BOT_TOKEN", "6108408027:AAEMVoI1wqTFZgxL0qwcmj5dUr9LNDuNdCI")
 
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
@@ -180,7 +180,7 @@ SET_CMDS = getenv("SET_CMDS", "False")
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "BQGt9tsAbo5pg93xYjpYZQt3V0jBiw_4A18S7bmdcSzcuiFi96egm-CyGvKzDQ2wH6losYr0ia8GX92aPAnvMUq7zAoeyNacsxi_BHYRGg7lYcpD0SxtFjYI-HASkU-r1JVBZslCKBJyfIKyuN9IvFvLUs5ZRBxAwyTmxDSPTcya7zo1ydfxNVI1in-O-fYly_irEMLB8UonilnpV1ketPp8h26LgFz-iDJHpTsLB0Y6j9hN6qat4BPkT9z9_I_4SX1FT-iOahJX4pdz7Wxav8frS7ltRyZ2Yo-9JecC_Q8CHIxzp-7mHIUKLPd3NdJEaLvuGs6HoEe1Ag0mMtQN34Ass3txdgAAAAFlP-m7AA")
+STRING1 = getenv("STRING_SESSION", "BQF1QAcAJwYxj3En_nHW4AMzq387E3NvAb5lt-CIgMfeGrrj5M2HD32DqRgGULAcT2aBdYB5xFcxawKR1ygjyQZLbaft_LzKWNMQQz7hngYT9iv0WRT7qT0WtACA24YSZlqLFOgEFRAQugan4nxXe3nLmxgDUMIEognwwEjw9U66-CZEAvPLoevikjLNx2yLfCYxpV6vgb1GC5iR4bwVAIrfHkt0bW_tZKSi1ba0kB9008q_4g69xk3A1Bsy3rNobo_6-RxWp81k30F6JNXPTaL8ulOFu_U22iqBown9kiEASH1bi-S8MPHsI7XP02c4NxlQmLRQfXr5uUhc3TJGFr8igDR1ZAAAAAFDmEYCAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
